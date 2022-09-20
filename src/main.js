@@ -4,6 +4,13 @@ const main = () => {
 
   var vertices = [
     // I
+    -0.56082, 0.70125,
+    -0.45, 0.7,
+    -0.56089, 0.32041,
+
+    -0.43819, 0.2992,
+    -0.55928, 0.29805,
+    -0.43875, 0.70101,
 
     // Z
     0.4, 0.6,
@@ -93,10 +100,12 @@ const main = () => {
   // gl.drawArrays(gl.TRIANGLE_STRIP, 0, 13);
   // gl.drawArrays(gl.TRIANGLE_STRIP, 13, 11);
 
-
+  // // I
+  gl.drawArrays(gl.TRIANGLES, 0, 3);
+  gl.drawArrays(gl.TRIANGLES, 3, 3);
   // Z
-  gl.drawArrays(gl.TRIANGLE_STRIP, 0, 17)
-  gl.drawArrays(gl.TRIANGLE_STRIP, 17, 20)
+  gl.drawArrays(gl.TRIANGLE_STRIP, 6, 17)
+  gl.drawArrays(gl.TRIANGLE_STRIP, 23, 20)
 };
 
 
