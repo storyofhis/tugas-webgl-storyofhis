@@ -8,5 +8,5 @@ tugas-webgl-storyofhis created by GitHub Classroom
 
 Hasil : 
 ```
-git clone https://github.com/cg20221d/tugas-webgl-storyofhis.git
+https://cg20221d.github.io/tugas-webgl-storyofhis/src/
 ```
